@@ -11,8 +11,11 @@ builder.Services.AddOcelot(builder.Configuration);
 builder.Services.AddCustomJwtAuthentication();
 
 var app = builder.Build();
+app.MapControllers();
 app.UseOcelot();
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.Run();
+
+//http://localhost:5212/api/Customer

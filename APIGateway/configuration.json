@@ -6,8 +6,8 @@
       "DownstreamSchema": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "authenticateapi",
-          "Port": 80
+          "Host": "localhost",
+          "Port": 5194
         }
       ],
       "DownstreamPathTemplate": "/api/Account"
@@ -18,8 +18,8 @@
       "DownstreamSchema": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "customerapi",
-          "Port": 80
+          "Host": "localhost",
+          "Port": 5172
         }
       ],
       "DownstreamPathTemplate": "/api/Customer",
@@ -34,8 +34,8 @@
       "DownstreamSchema": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "customerapi",
-          "Port": 80
+          "Host": "localhost",
+          "Port": 5172
         }
       ],
       "DownstreamPathTemplate": "/api/Customer"
